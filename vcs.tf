@@ -2,7 +2,7 @@ data "terraform_remote_state" "random-pet-name" {
   backend = "remote"
 
   config = {
-    organization = "hashicorp"
+    organization = "strampov_test"
     workspaces = {
       name = "random-pet-workspace"
     }
